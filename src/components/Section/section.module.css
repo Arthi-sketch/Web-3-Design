@@ -1,0 +1,110 @@
+.heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.ad {
+  background: #abe8ff;
+  border-radius: 10px;
+  padding: 2% 3%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #2b2557;
+  position: relative;
+
+  position: relative;
+}
+.badge {
+  background-color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0 1%;
+  border-radius: 6px;
+}
+.ad::after {
+  content: "";
+  width: 15%;
+  height: 100%;
+  background-image: url("../../../public/images/11.png");
+  position: absolute;
+  right: 1%;
+  top: 13%;
+  background-repeat: no-repeat;
+}
+.ad::before {
+  content: "";
+  width: 3%;
+  height: 100%;
+  background-image: url("../../../public/images/close.png");
+  position: absolute;
+  right: -1%;
+  top: -10%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.row1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  display: flex;
+}
+.row2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.light {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #808191;
+}
+.bar {
+  background: #242731;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tab {
+  display: flex;
+  gap: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+#highlighter {
+  border-bottom: 2px solid #3772ff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .ad::before {
+    width: 5%;
+  }
+  .ad::after {
+    width: 20%;
+    height: 80%;
+  }
+}

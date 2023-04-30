@@ -1,0 +1,44 @@
+#dashboard {
+  display: flex;
+  margin: 3px;
+  justify-content: center;
+  align-items: stretch;
+  position: relative;
+  padding-top: 1%;
+}
+.menu {
+  border-right: 2px solid#242731;
+  padding: 2%;
+  position: fixed;
+  left: 0;
+}
+.section {
+  border-right: 2px solid#242731;
+  overflow-wrap: anywhere;
+  width: 80%;
+  /* margin: 0 1px; */
+  padding: 2%;
+  left: 0;
+  margin-left: 260px;
+  /* margin-right: 10px; */
+}
+.link {
+  width: 30%;
+  padding: 2%;
+  /* position: fixed;
+  right: 0; */
+  display: flex;
+  justify-content: space-around;
+}
+.hr {
+  border: 2px solid #242731;
+}
+@media screen and (max-width: 1200px) {
+  .link {
+    text-align: -webkit-center !important;
+  }
+  .section{
+    margin-left: 230px;
+  margin-right: 0px;
+  }
+}
