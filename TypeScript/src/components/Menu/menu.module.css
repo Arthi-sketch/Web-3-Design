@@ -1,0 +1,35 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.5618px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+#menuHeader {
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+  gap: 1rem;
+  color: #808191;
+  cursor: pointer;
+}
+#menuHeader:hover {
+  background: #353945;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 600;
+  padding-left: 5%;
+}
+.badge {
+  margin-top: 30%;
+  background: #353945;
+  border-radius: 10px;
+}

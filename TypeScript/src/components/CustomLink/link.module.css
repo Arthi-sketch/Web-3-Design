@@ -1,0 +1,60 @@
+.parent {
+  line-height: 3rem;
+}
+.dropdown{
+  display: flex;
+  gap:'1rem';
+}
+.form {
+  /* line-height: 3rem; */
+  width: 100%;
+}
+.input {
+  background: #242731;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  padding: 4%;
+  width: 100%;
+  margin-top: 5%;
+}
+.input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #808191;
+}
+.submitButtons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 1080px) {
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    
+  }
+  .parent {
+    line-height: 1rem;
+  }
+  .input{
+    width: auto;
+    margin-top:15%;
+    margin-bottom: 5%;
+  }
+  .form{
+    margin-top: 2%;
+  }
+  .submitButtons{
+    flex-direction: column;
+    display: contents;
+  }
+  
+}
